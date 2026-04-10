@@ -1,0 +1,1106 @@
+{
+  "about/team.html": [
+    [
+      "title",
+      "팀 | WOCS",
+      "WOCS 팀 소개 — 글램핑·어닝 전문 시공 인력"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 팀을 소개합니다. 글램핑·어닝·천막·돔 시공을 이끄는 설계·제작·현장 담당 인력과 협력 파트너 구성을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 팀을 소개합니다. 글램핑·어닝·천막·돔 시공을 이끄는 설계·제작·현장 담당 인력과 협력 파트너 구성을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/about/team.html"
+    ]
+  ],
+  "contact/index.html": [
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/contact/index.html"
+    ]
+  ],
+  "contact/roi-calculator.html": [
+    [
+      "title",
+      "ROI 계산기 | WOCS",
+      "글램핑 ROI 계산기 — 투자 대비 수익 시뮬레이션 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS ROI 계산기를 이용해 글램핑·어닝·숙박업 투자 대비 예상 수익과 회수 기간을 시뮬레이션할 수 있습니다. 초기 비용과 운영 지표를 입력해 결과를 확인하세요."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS ROI 계산기를 이용해 글램핑·어닝·숙박업 투자 대비 예상 수익과 회수 기간을 시뮬레이션할 수 있습니다. 초기 비용과 운영 지표를 입력해 결과를 확인하세요."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/contact/roi-calculator.html"
+    ]
+  ],
+  "gallery/index.html": [
+    [
+      "og:description",
+      "(none)",
+      "WOCS가 시공한 글램핑·어닝·천막·돔 현장 사례 사진 갤러리입니다. 다양한 규모와 용도의 실제 설치 사례를 카테고리별로 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/gallery/index.html"
+    ]
+  ],
+  "index.html": [
+    [
+      "og:image",
+      "(none)",
+      "https://wocs.kr/assets/images/og-default.jpg"
+    ],
+    [
+      "h1 count",
+      "3",
+      "1 (나머지는 h2)"
+    ]
+  ],
+  "legal/cookies.html": [
+    [
+      "title",
+      "쿠키 정책 | WOCS",
+      "쿠키 정책 — WOCS 웹사이트 이용 안내"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 웹사이트의 쿠키 정책입니다. 수집하는 쿠키의 종류, 사용 목적, 보관 기간 및 사용자의 쿠키 설정 변경 방법을 안내합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 웹사이트의 쿠키 정책입니다. 수집하는 쿠키의 종류, 사용 목적, 보관 기간 및 사용자의 쿠키 설정 변경 방법을 안내합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/legal/cookies.html"
+    ]
+  ],
+  "legal/privacy.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 개인정보 처리방침입니다. 수집하는 정보 항목, 이용 목적, 보관 기간, 제3자 제공 여부와 정보주체 권리 행사 절차를 안내합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 개인정보 처리방침입니다. 수집하는 정보 항목, 이용 목적, 보관 기간, 제3자 제공 여부와 정보주체 권리 행사 절차를 안내합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/legal/privacy.html"
+    ]
+  ],
+  "legal/terms.html": [
+    [
+      "title",
+      "이용 약관 | WOCS",
+      "이용 약관 — WOCS 웹사이트·서비스 이용 안내"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 웹사이트 및 서비스 이용 약관입니다. 서비스 범위, 이용자 의무, 책임 제한 및 분쟁 해결 절차 등 주요 조항을 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 웹사이트 및 서비스 이용 약관입니다. 서비스 범위, 이용자 의무, 책임 제한 및 분쟁 해결 절차 등 주요 조항을 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/legal/terms.html"
+    ]
+  ],
+  "occasions/airbnb.html": [
+    [
+      "meta description",
+      "(none)",
+      "에어비앤비 운영자를 위한 WOCS 글램핑·돔 객실 솔루션입니다. 단기 숙박에 적합한 규모, 편의시설, 설치 조건과 운영 고려사항을 안내합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "에어비앤비 운영자를 위한 WOCS 글램핑·돔 객실 솔루션입니다. 단기 숙박에 적합한 규모, 편의시설, 설치 조건과 운영 고려사항을 안내합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/airbnb.html"
+    ]
+  ],
+  "occasions/glamping-pod.html": [
+    [
+      "title",
+      "글램핑 팟 | WOCS",
+      "글램핑 팟 — 캡슐형 소형 숙박 시설 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑 포드 시공 안내입니다. 소형 캡슐형 숙박 공간의 구조, 단열·방수 사양과 설치 프로세스, 주요 적용 사례를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑 포드 시공 안내입니다. 소형 캡슐형 숙박 공간의 구조, 단열·방수 사양과 설치 프로세스, 주요 적용 사례를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/glamping-pod.html"
+    ]
+  ],
+  "occasions/glamping.html": [
+    [
+      "title",
+      "아웃도어 시설 | WOCS",
+      "아웃도어 글램핑 시설 — 부지 기획부터 시공까지 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑 시공 전문 안내입니다. 사파리텐트, 돔, 벨텐트 등 주요 객실 타입의 특징과 부지 기획부터 인테리어까지 이어지는 시공 절차를 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑 시공 전문 안내입니다. 사파리텐트, 돔, 벨텐트 등 주요 객실 타입의 특징과 부지 기획부터 인테리어까지 이어지는 시공 절차를 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/glamping.html"
+    ]
+  ],
+  "occasions/hotel.html": [
+    [
+      "title",
+      "호텔 확장 | WOCS",
+      "호텔·리조트 확장 구조물 — 어닝·돔 시공 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "호텔 및 리조트에 적용하는 WOCS 어닝·돔·천막 시공 솔루션입니다. 로비, 야외 라운지, 수영장 주변 등 상업 공간의 요구에 맞춘 구조물을 제공합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "호텔 및 리조트에 적용하는 WOCS 어닝·돔·천막 시공 솔루션입니다. 로비, 야외 라운지, 수영장 주변 등 상업 공간의 요구에 맞춘 구조물을 제공합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/hotel.html"
+    ]
+  ],
+  "occasions/index.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑·어닝·천막·돔은 리조트, 호텔, 에어비앤비, 스포츠, 웨딩 등 다양한 용도에 맞춰 설계·시공됩니다. 용도별 적용 사례와 특징을 확인하세요."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑·어닝·천막·돔은 리조트, 호텔, 에어비앤비, 스포츠, 웨딩 등 다양한 용도에 맞춰 설계·시공됩니다. 용도별 적용 사례와 특징을 확인하세요."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/index.html"
+    ]
+  ],
+  "occasions/permanent.html": [
+    [
+      "title",
+      "반영구 주거 | WOCS",
+      "반영구 숙박 주거 구조물 시공 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 영구 구조물 시공 안내입니다. 일시적 천막이 아닌 장기 사용이 가능한 돔·모듈러 하우스의 구조적 사양과 허가 조건을 설명합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 영구 구조물 시공 안내입니다. 일시적 천막이 아닌 장기 사용이 가능한 돔·모듈러 하우스의 구조적 사양과 허가 조건을 설명합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/permanent.html"
+    ]
+  ],
+  "occasions/resort.html": [
+    [
+      "title",
+      "B2B 리조트 | WOCS",
+      "B2B 리조트 단지 글램핑·돔 시공 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "리조트 단지용 WOCS 글램핑·돔 시공 안내입니다. 대단지 객실 구성, 공용시설, 단지 마스터플랜과 시공 일정 조율 방식을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "리조트 단지용 WOCS 글램핑·돔 시공 안내입니다. 대단지 객실 구성, 공용시설, 단지 마스터플랜과 시공 일정 조율 방식을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/resort.html"
+    ]
+  ],
+  "occasions/sports.html": [
+    [
+      "title",
+      "스포츠 시설 | WOCS",
+      "스포츠 시설용 천막·돔 구조물 시공 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "스포츠 시설용 WOCS 천막·돔 시공 안내입니다. 실내 연습장, 체육관, 경기장 부속 시설에 적합한 구조물 타입과 대형 공간 구축 방식을 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "스포츠 시설용 WOCS 천막·돔 시공 안내입니다. 실내 연습장, 체육관, 경기장 부속 시설에 적합한 구조물 타입과 대형 공간 구축 방식을 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/sports.html"
+    ]
+  ],
+  "occasions/wedding.html": [
+    [
+      "meta description",
+      "(none)",
+      "야외 웨딩홀·이벤트 공간용 WOCS 천막·돔 시공 안내입니다. 하객 규모별 구조물 선택, 동선 설계, 인테리어 마감과 임시 설치 옵션을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "야외 웨딩홀·이벤트 공간용 WOCS 천막·돔 시공 안내입니다. 하객 규모별 구조물 선택, 동선 설계, 인테리어 마감과 임시 설치 옵션을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/wedding.html"
+    ]
+  ],
+  "occasions/winter.html": [
+    [
+      "title",
+      "동계 글램핑 | WOCS",
+      "동계 글램핑 — 단열·난방 객실 시공 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "동계 운영이 필요한 글램핑·숙박 시설을 위한 WOCS 돔·천막 시공 안내입니다. 단열·난방·방수 사양과 겨울철 구조 안전성에 관한 내용을 다룹니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "동계 운영이 필요한 글램핑·숙박 시설을 위한 WOCS 돔·천막 시공 안내입니다. 단열·난방·방수 사양과 겨울철 구조 안전성에 관한 내용을 다룹니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/occasions/winter.html"
+    ]
+  ],
+  "portfolio/index.html": [
+    [
+      "title",
+      "포트폴리오 | WOCS",
+      "WOCS 글램핑·어닝·돔 시공 포트폴리오"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS가 시공한 글램핑·어닝·천막·돔 프로젝트 포트폴리오입니다. 규모, 지역, 용도별로 정리된 실제 시공 사례와 프로젝트 개요를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS가 시공한 글램핑·어닝·천막·돔 프로젝트 포트폴리오입니다. 규모, 지역, 용도별로 정리된 실제 시공 사례와 프로젝트 개요를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/portfolio/index.html"
+    ]
+  ],
+  "products/addons.html": [
+    [
+      "title",
+      "애드온 | WOCS",
+      "글램핑·돔 객실 애드온 옵션 제품 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑·돔 시공 시 함께 설치할 수 있는 부가 옵션 안내입니다. 데크, 난방, 조명, 인테리어 가구 등 객실 완성도를 높이는 구성품을 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑·돔 시공 시 함께 설치할 수 있는 부가 옵션 안내입니다. 데크, 난방, 조명, 인테리어 가구 등 객실 완성도를 높이는 구성품을 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/addons.html"
+    ]
+  ],
+  "products/bell-tent.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 벨텐트 제품 안내입니다. 원형 캐빈 구조의 벨텐트 사이즈, 원단, 프레임 사양과 설치 방식, 글램핑·캠핑장 적용 사례를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 벨텐트 제품 안내입니다. 원형 캐빈 구조의 벨텐트 사이즈, 원단, 프레임 사양과 설치 방식, 글램핑·캠핑장 적용 사례를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/bell-tent.html"
+    ]
+  ],
+  "products/birdcage.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 버드케이지(새장형) 구조물 안내입니다. 개방감 있는 프레임 구조와 투광 패널을 활용한 독창적 외관의 제품 사양과 용도를 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 버드케이지(새장형) 구조물 안내입니다. 개방감 있는 프레임 구조와 투광 패널을 활용한 독창적 외관의 제품 사양과 용도를 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/birdcage.html"
+    ]
+  ],
+  "products/cocoon-house.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 코쿤 하우스 제품 안내입니다. 누에고치 형태의 유선형 객실 구조, 내외장 사양, 단열·방수 성능과 주요 시공 사례를 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 코쿤 하우스 제품 안내입니다. 누에고치 형태의 유선형 객실 구조, 내외장 사양, 단열·방수 성능과 주요 시공 사례를 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/cocoon-house.html"
+    ]
+  ],
+  "products/cube-cabin.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 큐브 캐빈 제품 안내입니다. 정육면체 모듈러 객실의 구조적 특징, 내부 레이아웃, 단열·방수 사양과 설치 조건을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 큐브 캐빈 제품 안내입니다. 정육면체 모듈러 객실의 구조적 특징, 내부 레이아웃, 단열·방수 사양과 설치 조건을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/cube-cabin.html"
+    ]
+  ],
+  "products/dome-tent.html": [
+    [
+      "title",
+      "D-시리즈 돔 | WOCS",
+      "D-시리즈 돔 텐트 — 측지 돔 객실 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 돔 텐트 제품 안내입니다. 측지 돔 프레임 구조의 사이즈, 원단 사양, 하중 성능과 글램핑 객실용 적용 사례를 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 돔 텐트 제품 안내입니다. 측지 돔 프레임 구조의 사이즈, 원단 사양, 하중 성능과 글램핑 객실용 적용 사례를 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/dome-tent.html"
+    ]
+  ],
+  "products/geodesic-domes-custom.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 측지 돔 커스텀 제품 안내입니다. 지름, 높이, 창호 위치, 원단 색상 등을 현장 요구에 맞춰 개별 설계하는 옵션과 주문 절차를 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 측지 돔 커스텀 제품 안내입니다. 지름, 높이, 창호 위치, 원단 색상 등을 현장 요구에 맞춰 개별 설계하는 옵션과 주문 절차를 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/geodesic-domes-custom.html"
+    ]
+  ],
+  "products/geodesic-domes-preconfigured.html": [
+    [
+      "title",
+      "D-600 | WOCS",
+      "D-600 사전 구성 측지 돔 모델 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 사전 구성 측지 돔 제품 안내입니다. 자주 요청되는 사이즈와 옵션을 표준화한 패키지 모델의 사양과 납기 조건을 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사전 구성 측지 돔 제품 안내입니다. 자주 요청되는 사이즈와 옵션을 표준화한 패키지 모델의 사양과 납기 조건을 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/geodesic-domes-preconfigured.html"
+    ]
+  ],
+  "products/geodesic-domes-ready.html": [
+    [
+      "title",
+      "D-800 | WOCS",
+      "D-800 재고 보유 측지 돔 모델 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 즉시 출고 가능한 측지 돔 재고 제품 안내입니다. 표준 사이즈별 재고 현황과 단기 설치가 필요한 현장을 위한 납품 절차를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 즉시 출고 가능한 측지 돔 재고 제품 안내입니다. 표준 사이즈별 재고 현황과 단기 설치가 필요한 현장을 위한 납품 절차를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/geodesic-domes-ready.html"
+    ]
+  ],
+  "products/geodesic-domes.html": [
+    [
+      "og:description",
+      "(none)",
+      "WOCS 지오데식(측지) 돔 전체 라인업 안내입니다. 측지 돔의 구조 원리, 사이즈 옵션, 적용 분야와 커스텀 가능 범위를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/geodesic-domes.html"
+    ]
+  ],
+  "products/index.html": [
+    [
+      "og:description",
+      "(none)",
+      "WOCS 제품 라인업 전체 안내입니다. 사파리텐트, 돔, 벨텐트, 모듈러 하우스, 어닝 등 카테고리별 제품과 주요 사양을 한 페이지에서 탐색할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/index.html"
+    ]
+  ],
+  "products/luxury-tents.html": [
+    [
+      "og:description",
+      "(none)",
+      "WOCS 럭셔리 텐트 제품 안내입니다. 프리미엄 원단, 고급 프레임, 넓은 실내 공간으로 호텔급 글램핑 객실에 어울리는 고사양 텐트를 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/luxury-tents.html"
+    ]
+  ],
+  "products/modular-bath.html": [
+    [
+      "title",
+      "모듈러 욕실 | WOCS",
+      "모듈러 욕실 유닛 — 글램핑 객실용 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 모듈러 욕실 유닛 안내입니다. 글램핑·돔 객실에 설치 가능한 독립형 욕실 모듈의 내부 구성, 배관 조건과 설치 절차를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 모듈러 욕실 유닛 안내입니다. 글램핑·돔 객실에 설치 가능한 독립형 욕실 모듈의 내부 구성, 배관 조건과 설치 절차를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/modular-bath.html"
+    ]
+  ],
+  "products/modular-deck.html": [
+    [
+      "title",
+      "모듈러 데크 | WOCS",
+      "모듈러 데크 — 조립식 외부 데크 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 모듈러 데크 제품 안내입니다. 글램핑·돔 객실 외부에 구축하는 조립식 데크의 자재, 사이즈, 설치 방식과 마감 옵션을 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 모듈러 데크 제품 안내입니다. 글램핑·돔 객실 외부에 구축하는 조립식 데크의 자재, 사이즈, 설치 방식과 마감 옵션을 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/modular-deck.html"
+    ]
+  ],
+  "products/modular-systems.html": [
+    [
+      "title",
+      "모듈러 시스템 | WOCS",
+      "모듈러 시스템 — 조립식 숙박 단지 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 모듈러 시스템 안내입니다. 객실, 욕실, 데크 등 유닛을 조합해 숙박 단지를 구축하는 모듈 공법의 구조와 장점을 설명합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 모듈러 시스템 안내입니다. 객실, 욕실, 데크 등 유닛을 조합해 숙박 단지를 구축하는 모듈 공법의 구조와 장점을 설명합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/modular-systems.html"
+    ]
+  ],
+  "products/modular-units.html": [
+    [
+      "title",
+      "모듈러 유닛 | WOCS",
+      "모듈러 유닛 — 조립식 객실 모듈 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 모듈러 유닛 제품 안내입니다. 공장 선 제작 후 현장 조립하는 조립식 객실 유닛의 표준 사양과 커스터마이징 범위를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 모듈러 유닛 제품 안내입니다. 공장 선 제작 후 현장 조립하는 조립식 객실 유닛의 표준 사양과 커스터마이징 범위를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/modular-units.html"
+    ]
+  ],
+  "products/nordic-tipi.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 노르딕 티피 제품 안내입니다. 북유럽 전통 원추형 천막 구조의 사이즈, 원단, 중앙 기둥 사양과 글램핑 적용 사례를 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 노르딕 티피 제품 안내입니다. 북유럽 전통 원추형 천막 구조의 사이즈, 원단, 중앙 기둥 사양과 글램핑 적용 사례를 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/nordic-tipi.html"
+    ]
+  ],
+  "products/peak-lodge.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 피크 로지 제품 안내입니다. 경사 지붕 구조의 박공형 객실 모델의 구조, 단열 성능, 실내 활용도와 주요 적용 용도를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 피크 로지 제품 안내입니다. 경사 지붕 구조의 박공형 객실 모델의 구조, 단열 성능, 실내 활용도와 주요 적용 용도를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/peak-lodge.html"
+    ]
+  ],
+  "products/safari-basic.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 사파리 텐트 베이직 라인 제품 안내입니다. 글램핑 입문 및 보급형 객실에 적합한 기본 사양의 사파리 텐트 구성과 설치 조건을 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사파리 텐트 베이직 라인 제품 안내입니다. 글램핑 입문 및 보급형 객실에 적합한 기본 사양의 사파리 텐트 구성과 설치 조건을 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/safari-basic.html"
+    ]
+  ],
+  "products/safari-cabin.html": [
+    [
+      "title",
+      "S-Suite | WOCS",
+      "S-Suite 사파리 캐빈 하이브리드 객실 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 사파리 캐빈 제품 안내입니다. 텐트와 캐빈의 장점을 결합한 하이브리드 구조의 사양, 단열, 내부 공간 활용도를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사파리 캐빈 제품 안내입니다. 텐트와 캐빈의 장점을 결합한 하이브리드 구조의 사양, 단열, 내부 공간 활용도를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/safari-cabin.html"
+    ]
+  ],
+  "products/safari-elite.html": [
+    [
+      "title",
+      "S-Lodge | WOCS",
+      "S-Lodge 사파리 엘리트 텐트 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 사파리 텐트 엘리트 라인 제품 안내입니다. 강화된 원단과 프레임, 넓은 실내를 갖춘 중상급 글램핑 객실용 사파리 텐트 사양을 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사파리 텐트 엘리트 라인 제품 안내입니다. 강화된 원단과 프레임, 넓은 실내를 갖춘 중상급 글램핑 객실용 사파리 텐트 사양을 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/safari-elite.html"
+    ]
+  ],
+  "products/safari-extreme.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 사파리 익스트림 제품 안내입니다. 혹한·강풍 등 극한 환경을 고려한 강화 프레임과 고사양 원단이 적용된 사파리 텐트를 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사파리 익스트림 제품 안내입니다. 혹한·강풍 등 극한 환경을 고려한 강화 프레임과 고사양 원단이 적용된 사파리 텐트를 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/safari-extreme.html"
+    ]
+  ],
+  "products/safari-luxury.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 사파리 럭셔리 제품 안내입니다. 최상위 등급 원단, 고급 내장재, 넓은 실내 구성을 갖춘 프리미엄 사파리 텐트의 사양을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사파리 럭셔리 제품 안내입니다. 최상위 등급 원단, 고급 내장재, 넓은 실내 구성을 갖춘 프리미엄 사파리 텐트의 사양을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/safari-luxury.html"
+    ]
+  ],
+  "products/safari-tents.html": [
+    [
+      "og:description",
+      "(none)",
+      "WOCS 사파리 텐트 전체 라인업 안내입니다. 베이직, 엘리트, 럭셔리, 익스트림 등 등급별 사파리 텐트의 차이와 적용 용도를 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/safari-tents.html"
+    ]
+  ],
+  "products/sailing-tent.html": [
+    [
+      "meta description",
+      "(none)",
+      "WOCS 세일링 텐트 제품 안내입니다. 돛 형태의 유려한 곡선 지붕 구조로 이벤트·야외 공간에 활용되는 텐트의 사양과 설치 조건을 소개합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 세일링 텐트 제품 안내입니다. 돛 형태의 유려한 곡선 지붕 구조로 이벤트·야외 공간에 활용되는 텐트의 사양과 설치 조건을 소개합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/sailing-tent.html"
+    ]
+  ],
+  "products/solar-system.html": [
+    [
+      "title",
+      "태양광 시스템 | WOCS",
+      "태양광 시스템 — 오프그리드 글램핑 전원 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑·돔 시설을 위한 태양광 시스템 안내입니다. 오프그리드 환경에서도 운영 가능한 자가발전 솔루션의 구성과 설치 방식을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑·돔 시설을 위한 태양광 시스템 안내입니다. 오프그리드 환경에서도 운영 가능한 자가발전 솔루션의 구성과 설치 방식을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/products/solar-system.html"
+    ]
+  ],
+  "project/buying-land.html": [
+    [
+      "title",
+      "부지 매입 | WOCS",
+      "글램핑·숙박업 부지 매입 가이드 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "글램핑·숙박업 부지 매입 가이드입니다. WOCS가 제안하는 입지 분석, 법적 검토, 계약 전 점검 항목과 부지 기획 단계에서의 주의사항을 안내합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "글램핑·숙박업 부지 매입 가이드입니다. WOCS가 제안하는 입지 분석, 법적 검토, 계약 전 점검 항목과 부지 기획 단계에서의 주의사항을 안내합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/project/buying-land.html"
+    ]
+  ],
+  "project/financing.html": [
+    [
+      "title",
+      "파이낸싱 | WOCS",
+      "글램핑 창업 파이낸싱·자금 조달 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "글램핑·숙박업 창업 자금 조달 가이드입니다. WOCS 프로젝트 진행 시 참고할 수 있는 대출, 리스, 투자 유치 등 주요 자금 조달 방식과 검토 포인트를 설명합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "글램핑·숙박업 창업 자금 조달 가이드입니다. WOCS 프로젝트 진행 시 참고할 수 있는 대출, 리스, 투자 유치 등 주요 자금 조달 방식과 검토 포인트를 설명합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/project/financing.html"
+    ]
+  ],
+  "project/index.html": [
+    [
+      "title",
+      "프로젝트 기획 | WOCS",
+      "글램핑·숙박업 프로젝트 기획 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑·어닝·돔 창업 프로젝트 전체 안내입니다. 부지 선정부터 설계, 인허가, 시공, 운영까지 이어지는 프로젝트 진행 절차를 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑·어닝·돔 창업 프로젝트 전체 안내입니다. 부지 선정부터 설계, 인허가, 시공, 운영까지 이어지는 프로젝트 진행 절차를 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/project/index.html"
+    ]
+  ],
+  "project/planning-cases.html": [
+    [
+      "title",
+      "기획 사례 | WOCS",
+      "글램핑 프로젝트 기획 사례 모음 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑·숙박 프로젝트 기획 사례 모음입니다. 부지 조건별, 규모별 기획 방향과 실제 진행된 프로젝트의 배치도 및 구성 예시를 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑·숙박 프로젝트 기획 사례 모음입니다. 부지 조건별, 규모별 기획 방향과 실제 진행된 프로젝트의 배치도 및 구성 예시를 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/project/planning-cases.html"
+    ]
+  ],
+  "project/revenue-sharing.html": [
+    [
+      "title",
+      "수익 공유 | WOCS",
+      "WOCS 글램핑 수익 공유 모델 안내"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 수익 공유 모델 안내입니다. 글램핑·숙박 창업 시 초기 투자 부담을 낮추기 위한 수익 분배 방식의 구조와 계약 조건을 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 수익 공유 모델 안내입니다. 글램핑·숙박 창업 시 초기 투자 부담을 낮추기 위한 수익 분배 방식의 구조와 계약 조건을 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/project/revenue-sharing.html"
+    ]
+  ],
+  "project/start-business.html": [
+    [
+      "title",
+      "글램핑 창업 | WOCS",
+      "글램핑 창업 가이드 — 부지부터 운영까지 | WOCS"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS와 함께하는 글램핑·숙박업 창업 가이드입니다. 사업 기획, 부지 확보, 설계, 인허가, 시공, 운영까지 단계별로 필요한 준비 사항을 설명합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS와 함께하는 글램핑·숙박업 창업 가이드입니다. 사업 기획, 부지 확보, 설계, 인허가, 시공, 운영까지 단계별로 필요한 준비 사항을 설명합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/project/start-business.html"
+    ]
+  ],
+  "resources/blog.html": [
+    [
+      "title",
+      "블로그 | WOCS",
+      "WOCS 블로그 — 글램핑 창업·시공·트렌드"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 블로그입니다. 글램핑 창업, 시공 기술, 수익 분석, 시장 트렌드 등 업계 현장에서 도움이 되는 전문 정보를 공유합니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 블로그입니다. 글램핑 창업, 시공 기술, 수익 분석, 시장 트렌드 등 업계 현장에서 도움이 되는 전문 정보를 공유합니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/resources/blog.html"
+    ]
+  ],
+  "resources/dealer.html": [
+    [
+      "title",
+      "딜러 지원 | WOCS",
+      "WOCS 대리점·파트너사 지원 안내"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 대리점 및 파트너사 안내입니다. 지역별 상담 가능한 대리점 네트워크와 파트너십 지원 제도, 협력 절차를 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 대리점 및 파트너사 안내입니다. 지역별 상담 가능한 대리점 네트워크와 파트너십 지원 제도, 협력 절차를 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/resources/dealer.html"
+    ]
+  ],
+  "resources/downloads.html": [
+    [
+      "title",
+      "다운로드 | WOCS",
+      "WOCS 카탈로그·도면 다운로드 자료실"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 카탈로그, 도면, 사양서 등 다운로드 자료 모음입니다. 글램핑·어닝·돔 제품 관련 PDF 자료를 목록에서 내려받을 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 카탈로그, 도면, 사양서 등 다운로드 자료 모음입니다. 글램핑·어닝·돔 제품 관련 PDF 자료를 목록에서 내려받을 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/resources/downloads.html"
+    ]
+  ],
+  "resources/faq.html": [
+    [
+      "title",
+      "FAQ | WOCS",
+      "WOCS 글램핑·어닝·돔 자주 묻는 질문"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 글램핑·어닝·돔 관련 자주 묻는 질문 모음입니다. 시공 일정, 견적, 유지보수, 인허가 등 고객이 자주 궁금해하는 내용을 정리했습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 글램핑·어닝·돔 관련 자주 묻는 질문 모음입니다. 시공 일정, 견적, 유지보수, 인허가 등 고객이 자주 궁금해하는 내용을 정리했습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/resources/faq.html"
+    ]
+  ],
+  "resources/index.html": [
+    [
+      "title",
+      "자료실 | WOCS",
+      "WOCS 자료실 — 블로그·후기·다운로드"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 자료실 메인 페이지입니다. 블로그, 고객 후기, 자주 묻는 질문, 카탈로그 다운로드, 대리점 안내 등 주요 자료와 정보를 한곳에서 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 자료실 메인 페이지입니다. 블로그, 고객 후기, 자주 묻는 질문, 카탈로그 다운로드, 대리점 안내 등 주요 자료와 정보를 한곳에서 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/resources/index.html"
+    ]
+  ],
+  "resources/reviews.html": [
+    [
+      "title",
+      "리뷰 | WOCS",
+      "WOCS 시공 고객 후기·리뷰 모음"
+    ],
+    [
+      "meta description",
+      "(none)",
+      "WOCS 시공을 경험한 고객들의 후기 모음입니다. 글램핑·돔·어닝 시공 프로젝트 진행 과정과 완공 후 운영 소감을 확인할 수 있습니다."
+    ],
+    [
+      "og:description",
+      "(none)",
+      "WOCS 시공을 경험한 고객들의 후기 모음입니다. 글램핑·돔·어닝 시공 프로젝트 진행 과정과 완공 후 운영 소감을 확인할 수 있습니다."
+    ],
+    [
+      "og:url",
+      "(none)",
+      "https://wocs.kr/resources/reviews.html"
+    ]
+  ]
+}
