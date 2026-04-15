@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Edit(**)",
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(npx *)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Edit(C:/Users/user/secrets/**)"
+    ]
+  }
+}

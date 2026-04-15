@@ -238,3 +238,34 @@ Alpaca API 미국주식 페이퍼트레이딩
 - gstack: Garry Tan YC 28개 커맨드 (★45.7k)
 - game-studios: 게임 스튜디오 48에이전트 (★3.9k)
 - 커스텀 에이전트: 7개 (WOCS 전용)
+
+---
+
+## 🛠️ 기술 스택 및 코딩 규칙 (2026-04-15 추가)
+
+### 기술 스택
+- 정적 HTML/CSS/JS (Vercel 배포)
+- GitHub Actions 자동화 (블로그 매일 9시, LinkedIn 11시, Threads 11:30)
+- IndexNow 키: bc5ada97a10c8516596ea24189a7452a
+- Google Cloud 프로젝트: gen-lang-client-0132232189
+- 서비스 계정: wocs-indexing@gen-lang-client-0132232189.iam.gserviceaccount.com
+
+### 코드 규칙
+- 모든 HTML에 canonical URL 필수
+- 한국어 + 15개 언어 i18n 유지
+- JSON-LD LocalBusiness 스키마 필수
+- 이미지는 WebP 우선, alt 태그 한국어로
+- 시크릿/API 키는 코드에 절대 포함 금지 → `C:\Users\user\secrets\` 에만 저장
+
+### SEO
+- sitemap.xml 자동 생성 유지
+- Google Search Console + Naver Search Advisor 등록 완료
+- 약 4/25경 Google Search Console 정크 canonical URL 정리 예정 (repo 내 불필요 폴더 삭제)
+
+### Pending
+- repo 내 커밋된 junk 폴더 정리 (Google Search Console spurious canonical URL 원인)
+
+### 유지보수 규칙
+- 매주 월요일: `/plugin update` 전체 실행
+- 매월 1일: `gh repo sync`로 fork 전체 동기화
+- 새 플러그인 설치 시 기존 플러그인과 기능 중복 확인 후 설치
