@@ -28,3 +28,39 @@ WOCS_사진/
 WOCS_카달로그/
 node_modules/
 package-lock.json
+
+# === 2026-04-16 정리: 용량/백업/임시 파일 제외 ===
+
+# 이모티콘 관련 (로컬 전용, 1.4GB)
+이모티콘모음/
+emoticons/
+emoticon-backup/
+
+# 압축 아카이브 (Cloudinary 등)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# CLAUDE.md 백업 파일
+CLAUDE.md.bak*
+CLAUDE.md.new
+*.md.bak_*
+
+# 임시 Python 스크립트 (언더스코어 접두사)
+_*.py
+tmp_*.py
+scratch_*.py
+
+# 기타 임시
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 대용량 미디어 원본 (로컬 전용)
+*.psd
+*.ai
+*.sketch
+*.fig
