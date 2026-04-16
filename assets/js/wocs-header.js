@@ -293,53 +293,152 @@ document.addEventListener('click', function(e) {
 function initMobileMenu() {
   var header = document.getElementById('wocs-header');
   if (!header) return;
-  
-  // Add hamburger button (visible only on mobile)
   var main = header.querySelector('.header-main');
   if (!main) return;
-  
+
+  // 언어 아이콘 (모바일 전용)
+  var langBtn = document.createElement('button');
+  langBtn.id = 'mob-lang-btn';
+  langBtn.style.cssText = 'display:none;background:none;border:1px solid rgba(201,169,110,0.3);color:#c9a96e;padding:8px 10px;cursor:pointer;border-radius:4px;margin-right:8px;font-size:18px;';
+  langBtn.innerHTML = '🌐';
+  langBtn.title = '언어 선택';
+
+  // 햄버거 버튼
   var hamburger = document.createElement('button');
   hamburger.id = 'mobile-hamburger';
   hamburger.innerHTML = '☰';
   hamburger.style.cssText = 'display:none;background:none;border:1px solid rgba(201,169,110,0.3);color:#c9a96e;font-size:24px;padding:8px 12px;cursor:pointer;font-family:sans-serif';
+
+  main.appendChild(langBtn);
   main.appendChild(hamburger);
-  
-  var nav = header.querySelector('nav');
+
   var navList = header.querySelector('.nav-list');
-  
-  // Show hamburger on mobile
+  var langDropdown = document.getElementById('lang-dropdown');
+
+  // 언어 버튼 클릭
+  langBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (!langDropdown) return;
+    var isVisible = langDropdown.style.display === 'grid';
+    langDropdown.style.display = isVisible ? 'none' : 'grid';
+    langDropdown.style.position = 'fixed';
+    langDropdown.style.top = '70px';
+    langDropdown.style.right = '10px';
+    langDropdown.style.left = '10px';
+    langDropdown.style.zIndex = '100001';
+  });
+
+  // 모바일 여부 체크
   function checkMobile() {
     if (window.innerWidth <= 768) {
       hamburger.style.display = 'block';
-      if (navList) navList.style.display = 'none';
+      langBtn.style.display = 'block';
+      if (navList && !navList.classList.contains('mob-open')) {
+        navList.style.display = 'none';
+      }
     } else {
       hamburger.style.display = 'none';
-      if (navList) navList.style.display = 'flex';
+      langBtn.style.display = 'none';
+      if (navList) {
+        navList.style.display = 'flex';
+        navList.style.position = '';
+        navList.style.flexDirection = '';
+      }
     }
   }
-  
+
+  // 햄버거 클릭
   hamburger.addEventListener('click', function() {
     if (!navList) return;
-    if (navList.style.display === 'none' || navList.style.display === '') {
+    var isOpen = navList.classList.contains('mob-open');
+    if (!isOpen) {
+      navList.classList.add('mob-open');
       navList.style.display = 'flex';
       navList.style.flexDirection = 'column';
-      navList.style.position = 'absolute';
-      navList.style.top = '100%';
+      navList.style.position = 'fixed';
+      navList.style.top = '0';
       navList.style.left = '0';
       navList.style.right = '0';
-      navList.style.background = 'rgba(9,9,11,0.97)';
-      navList.style.padding = '20px';
-      navList.style.borderTop = '1px solid rgba(201,169,110,0.14)';
-      navList.style.zIndex = '1001';
+      navList.style.bottom = '0';
+      navList.style.background = 'rgba(9,9,11,0.98)';
+      navList.style.padding = '80px 24px 24px';
+      navList.style.zIndex = '99999';
+      navList.style.overflowY = 'auto';
+      navList.style.gap = '0';
       hamburger.innerHTML = '✕';
+      hamburger.style.zIndex = '100000';
+      hamburger.style.position = 'relative';
     } else {
+      navList.classList.remove('mob-open');
       navList.style.display = 'none';
       hamburger.innerHTML = '☰';
+      // 열린 서브메뉴 전부 닫기
+      navList.querySelectorAll('.mega-menu').forEach(function(m) {
+        m.style.display = 'none';
+        m.style.maxHeight = '0';
+      });
+      navList.querySelectorAll('.mob-arrow').forEach(function(a) {
+        a.style.transform = 'rotate(0deg)';
+      });
     }
   });
-  
+
+  // 서브메뉴 accordion
+  var navItems = navList ? navList.querySelectorAll('.nav-item') : [];
+  navItems.forEach(function(item) {
+    var link = item.querySelector('.nav-link');
+    var mega = item.querySelector('.mega-menu');
+    if (!mega || !link) return;
+
+    // 화살표 버튼 추가
+    var arrow = document.createElement('span');
+    arrow.className = 'mob-arrow';
+    arrow.innerHTML = ' ▼';
+    arrow.style.cssText = 'font-size:11px;color:#c9a96e;transition:transform 0.3s;display:inline-block;margin-left:4px;';
+    link.appendChild(arrow);
+
+    // mega-menu 초기 숨김
+    mega.style.display = 'none';
+    mega.style.flexDirection = 'column';
+    mega.style.paddingLeft = '16px';
+    mega.style.gap = '4px';
+
+    function toggleMega(e) {
+      if (window.innerWidth > 768) return;
+      e.preventDefault();
+      e.stopPropagation();
+      var isOpen = mega.style.display === 'block';
+      // 다른 것 전부 닫기
+      navItems.forEach(function(other) {
+        if (other !== item) {
+          var om = other.querySelector('.mega-menu');
+          var oa = other.querySelector('.mob-arrow');
+          if (om) om.style.display = 'none';
+          if (oa) oa.style.transform = 'rotate(0deg)';
+        }
+      });
+      if (isOpen) {
+        mega.style.display = 'none';
+        arrow.style.transform = 'rotate(0deg)';
+      } else {
+        mega.style.display = 'block';
+        arrow.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    link.addEventListener('click', toggleMega);
+    link.addEventListener('touchstart', toggleMega, { passive: false });
+  });
+
   checkMobile();
   window.addEventListener('resize', checkMobile);
+
+  // 외부 클릭 시 언어 드롭다운 닫기
+  document.addEventListener('click', function(e) {
+    if (langDropdown && !langBtn.contains(e.target)) {
+      langDropdown.style.display = 'none';
+    }
+  });
 }
 
 document.addEventListener('DOMContentLoaded', function() {

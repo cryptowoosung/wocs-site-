@@ -338,3 +338,97 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+## Plugin Priority Rules (Multi-Plugin Orchestration)
+
+설치된 플러그인: superpowers, oh-my-claudecode(OMC), bkit, everything-claude-code, claude-mem, frontend-design, context7, code-review, github, voicemode
+
+### 기본 원칙
+1. 충돌 시 superpowers 방법론을 기본으로 삼는다
+2. 병렬 실행/대규모 작업은 OMC에 위임한다
+3. 명시적 슬래시 명령어 우선 사용한다
+
+### 단계별 역할 분담
+
+**기획 단계**: /superpowers:brainstorm, /superpowers:write-plan
+**구현 단계 (작음)**: superpowers subagent-driven-development
+**구현 단계 (대규모)**: autopilot: 또는 ultrapilot:
+**검증 단계 (1차)**: /superpowers:code-review (아키텍처/계획 준수)
+**검증 단계 (2차)**: /oh-my-claudecode:code-review (코드 품질)
+**검증 단계 (3차)**: /oh-my-claudecode:security-review (보안)
+**TDD 강제**: superpowers RED-GREEN-REFACTOR 절대 우선
+**빌드 검증**: /oh-my-claudecode:build-fixer
+**회고/문서화**: bkit PDCA Check/Act 단계
+
+### 충돌 해결 규칙
+- TDD 관련: 항상 superpowers 규칙
+- 병렬 실행: 항상 OMC 규칙
+- 코드 리뷰: 두 플러그인 결과 모두 받고, 교차 검증
+- 작은 스크립트(<50줄): superpowers 단독으로 충분
+
+### 배포 전 필수 체크리스트 (게이트)
+1. /superpowers:write-plan 계획과 일치 ✓
+2. 2차 교차 코드 리뷰 통과 ✓
+3. /oh-my-claudecode:security-review 취약점 0건 ✓
+4. TDD 커버리지 확인 ✓
+5. build-fixer 빌드 에러 0건 ✓
+6. bkit PDCA Check로 학습 기록 ✓
+
+# === Automatic Workflow Rules (Appended 2026-04-16) ===
+
+## Automatic Workflow Rules
+
+**Claude는 아래 상황이 감지되면 명시적 명령어 없이도 자동으로 해당 워크플로우를 실행한다.**
+
+### 자동 트리거 1: 새 기능/아이디어 감지
+**트리거 키워드:** "추가하고 싶어", "만들고 싶어", "구현하려고", "새 기능", "아이디어 있어"
+**자동 실행:** /superpowers:brainstorm 자동 호출 → 요구사항 정제 → /superpowers:write-plan 제안
+**예외:** "빠르게", "그냥 해줘", "급해" 언급 시 스킵
+
+### 자동 트리거 2: 50줄 이상 코드 작성 감지
+**자동 실행:** /superpowers:code-review 자동 → 고객용/보안 관련 시 추가 리뷰
+
+### 자동 트리거 3: 계획서 작성 후 구현 단계
+**자동 실행:** 규모 판단 후 execute-plan / autopilot / ultrapilot 자동 선택
+
+### 자동 트리거 4: 배포 관련 키워드 감지
+**트리거:** "배포", "출시", "deploy", "publish", "git push origin main"
+**자동 실행:** 중단 + 7단계 체크리스트 자동 실행
+
+### 자동 트리거 5: 빌드/테스트 실패 감지
+**자동 실행:** /oh-my-claudecode:build-fixer → 3회 실패 시 systematic-debugging
+
+### 자동 트리거 6: 버그/에러 감지
+**트리거:** "안 돼", "에러", "버그", "왜 이래"
+**자동 실행:** 3회 반복 시 /superpowers:systematic-debugging 강제 진입
+
+### 자동 트리거 7: UI/UX 작업
+**트리거:** "디자인", "화면", "UI", "레이아웃"
+**자동 실행:** Canva MCP 먼저 제안 → frontend-design 플러그인 사용
+
+### 자동 트리거 8: 주 1회 자동 회고
+**자동 실행:** 7일 경과 시 /bkit:retro 제안
+
+## 자동 실행 안전장치
+1. 실행 전 반드시 사용자 알림 (2초 대기, "중단" 입력으로 취소)
+2. $5 이상 토큰 예상 시 승인 필수
+3. 10분 내 3회 발동 시 자동 비활성화
+4. "자동 말고", "수동으로", "트리거 끄고" 키워드 시 비활성화
+
+## 배포 게이트 (절대 비활성화 불가)
+1. git push origin main 감지 → 7단계 체크리스트
+2. 앱 배포 명령 감지 → 보안 리뷰 강제
+3. .env, API 키 커밋 시도 → 즉시 중단
+4. 대규모 파일 삭제 → 백업 확인
+
+## 자동화 수준 설정
+프로젝트별 .claude/settings.local.json에 "autoWorkflowLevel" 설정:
+- aggressive: 모든 트리거 자동 (초기 학습)
+- balanced: 중요 트리거만 자동 (기본값)
+- manual: 자동 실행 없음
+
+프로젝트별 권장:
+- joseonin-unse: aggressive
+- patentjigi: balanced
+- wocs-site: balanced
+
